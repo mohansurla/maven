@@ -1,0 +1,129 @@
+git commands :
+
+git init :
+
+vi sample.txt 
+
+cat sample.txt 
+
+mv sample.txt example.txt
+
+git status 
+
+git add example.txt
+
+git status
+
+git commit -m "first commit"
+
+git log
+
+git remote add origin https://github.com/Narendra-jinka/CloudProgramming.git(github repo link here)
+
+git push -u  origin master
+
+cat example.txt
+
+-------now goto git hub and open the repo given above and make the changes in example.txt file by clicking on pencil symbol------------------
+
+then :
+
+	git pull origin master
+
+	cat example.txt
+
+git log 
+
+	--> here u get all commits with commit hashcodes : 99f7cc072733650fba256da555ebd4936a8226d9
+
+git show 99f7cc072733650fba256da555ebd4936a8226d9
+
+git show HEAD
+
+git branch 
+	---> *master
+
+git branch test
+
+git checkout test
+
+vi sample1.txt
+	---->> write the content 
+
+cat sample1.txt
+
+git add sample1.txt
+
+git commit -m "test commit"
+
+git log 
+
+git checkout master
+
+git push origin master
+
+git push origin test
+
+git merge test 
+
+git log
+
+------------------some git commands over ------------------------
+
+vi sample2.txt
+	-->> hii haloow
+
+cat sample2.txt
+
+vi sample2.txt
+	-->> hii haloow
+	--->> hello world
+
+cat sample2.txt
+
+git status
+
+git restore sample2.txt
+
+git status
+
+git add sample2.txt 
+
+git status 
+
+git restore --staged sample2.txt
+
+git add sample2.txt 
+
+git commit -m "after commit"
+
+git reset HEAD
+
+
+------------------------------------------------------------------
+
+
+vi sample3.txt
+	--> hii hello
+
+git add sample3.txt
+
+git status
+
+git stash 
+
+git status
+
+git stash pop 
+-------------------------
+
+git diff sample2.txt
+
+git diff HEAD
+
+------------------------
+
+git clone https://github.com/Narendra-jinka/CloudProgramming.git(any repo link )
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
